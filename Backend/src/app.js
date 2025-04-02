@@ -13,7 +13,7 @@ const app = express();
 const PORT = 9999;
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://dev-tinder-nujf.vercel.app/",
     methods: ["GET", "POST", "PATCH", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true
