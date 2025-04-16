@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "v21.6.2"
+  },
   "name": "backend",
   "version": "1.0.0",
   "description": "",
